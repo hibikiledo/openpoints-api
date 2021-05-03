@@ -1,0 +1,33 @@
+{
+   "name": "openpoints",
+   "version": "1.0.0",
+   "description": "Extensible point system for businesses",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@koa/cors": "^3.1.0",
+      "@koa/router": "^10.0.0",
+      "axios": "^0.21.1",
+      "koa": "^2.13.1",
+      "koa-bodyparser": "^4.3.0",
+      "nanoid": "^3.1.22",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.32"
+   },
+   "devDependencies": {
+      "@types/koa": "^2.13.1",
+      "@types/koa-bodyparser": "^4.3.0",
+      "@types/koa__cors": "^3.0.2",
+      "@types/koa__router": "^8.0.4",
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.7",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
